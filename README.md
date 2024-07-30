@@ -1,7 +1,7 @@
-# Landing Page Project
+# Meu Portfólio
 
-This is a simple landing page project to showcase my skills in HTML, CSS, and JavaScript.
+Este é o meu portfólio online onde apresento alguns dos meus projetos.
 
-## How to run the project
+## Projetos
 
-Open `index.html` in your web browser to see the landing page.
+- [Landing Page](/lps/index.html): Uma simples landing page demonstrando minhas habilidades em HTML, CSS e JavaScript.

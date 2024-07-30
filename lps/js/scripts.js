@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Portfólio carregado');
+    console.log('JavaScript loaded');
 });
