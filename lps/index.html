@@ -1,24 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Meu Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles_lps.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Landing Page</h1>
+        <div class="container">
+            <h1>Meu Portfólio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>About Us</h2>
-            <p>Some information about the company.</p>
+        <section id="hero">
+            <div class="container">
+                <h2>Bem-vindo ao Meu Portfólio</h2>
+                <p>Aqui você encontra meus projetos mais recentes e informações sobre meu trabalho.</p>
+                <a href="#projects" class="btn">Veja Meus Projetos</a>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor web apaixonado por criar soluções elegantes e eficientes. Tenho experiência em HTML, CSS, JavaScript e frameworks modernos.</p>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+                <div class="project">
+                    <h3>Confeitaria</h3>
+                    <p>Landing pages para empresas fictícias em HTML, CSS e design responsivo.</p>
+                    <a href="pages/confeitaria.html" target="_blank">Veja o projeto</a>
+                </div>
+                <div class="project">
+                    <h3>Anime news</h3>
+                    <p>Landing pages para empresas fictícias em HTML, CSS e design responsivo.</p>
+                    <a href="pages/animenews.html" target="_blank">Veja o projeto</a>
+                </div>
+                <!-- Adicione mais projetos conforme necessário -->
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Your Name</p>
+        <div class="container">
+            <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+        </div>
     </footer>
-    <script src="js/scripts.js"></script>
+    <script src="../js/scripts_confeitaria.js"></script>
 </body>
 </html>

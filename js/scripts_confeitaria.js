@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('JavaScript loaded');
+    console.log('Página carregada');
 });
