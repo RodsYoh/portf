@@ -1,26 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
 </head>
+
 <body>
     <header>
-        <div class="container">
-            <h1>Meu Portfólio</h1>
+        <div class="logo">
+            <i class="fa-solid fa-r"></i>
+        </div>
+        <div class="header-links">
             <nav>
                 <ul>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <button>Meu contato</button>
                 </ul>
             </nav>
         </div>
     </header>
+
+
     <main>
+        <div class="background">
+        <div class="about">
+            <div class="about-text">
+                <div class="text">
+                    <h3>Olá, pessoal</h3>
+                    <h1>Eu sou <span>Rodrigo Araújo</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, sint odit error <br /> autem, id
+                        tempore
+                        recusandae rem repellat eaque dolorem vitae sed architecto <br /> laborum cupiditate obcaecati,
+                        debitis
+                        necessitatibus alias.</p>
+                    <div class="redes-sociais">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <button class="about-btn">Sobre Mim</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
         <section id="hero">
             <div class="container">
                 <h2>Bem-vindo ao Meu Portfólio</h2>
@@ -31,7 +66,8 @@
         <section id="about">
             <div class="container">
                 <h2>Sobre Mim</h2>
-                <p>Sou um desenvolvedor web apaixonado por criar soluções elegantes e eficientes. Tenho experiência em HTML, CSS, JavaScript e frameworks modernos.</p>
+                <p>Sou um desenvolvedor web apaixonado por criar soluções elegantes e eficientes. Tenho experiência em
+                    HTML, CSS, JavaScript e frameworks modernos.</p>
             </div>
         </section>
         <section id="projects">
@@ -42,33 +78,16 @@
                     <p>Landing pages para empresas fictícias em HTML, CSS e design responsivo.</p>
                     <a href="lps/landingpages.html" target="_blank">Veja os projetos</a>
                 </div>
-                <!-- Adicione mais projetos conforme necessário -->
-            </div>
-        </section>
-        <section id="contact">
-            <div class="container">
-                <h2>Contato</h2>
-                <p>Entre em contato para discutir projetos ou apenas dizer olá.</p>
-                <form action="https://formspree.io/f/YOUR-FORMSPREE-ID" method="POST">
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                    
-                    <label for="message">Mensagem</label>
-                    <textarea id="message" name="message" required></textarea>
-                    
-                    <button type="submit" class="btn">Enviar</button>
-                </form>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
-            <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+            <p>&copy; 2024 Rodrigo Araújo. Todos os direitos reservados.</p>
         </div>
     </footer>
+</div>
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
