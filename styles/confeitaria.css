@@ -28,6 +28,7 @@ body {
 
 #mainNavbar .nav-link {
     color: white;
+    font-weight: 400;
 }
 
 #mainNavbar .nav-link:hover {
