@@ -324,3 +324,40 @@ footer {
   color:#2ecc71;
   padding: 2vh 0 2vh 1vh;
 }
+
+@media screen and (max-width: 480px){
+  header{
+    width: 25rem;
+  }
+  .header-links > nav > ul {
+    gap: 1rem;
+  }
+  main{
+    max-width: 40rem;
+  }
+  .about {
+    max-width: 40rem;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    justify-content: center;
+    padding: 5rem 1rem;
+  }
+  .text h1 {
+    font-size: 1.5rem;
+  }
+  .about-img{
+    width: 60%;
+  }
+  .about-text {
+    width: 70%;
+  }
+  .projects {
+    width: 23rem;
+  }
+  #landing-pages-list {
+    flex-wrap: wrap;
+  }
+  .footer-container p {
+    font-size: .7rem;
+  }
+}
